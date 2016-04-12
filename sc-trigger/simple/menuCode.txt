@@ -1,0 +1,13 @@
+SELLOFF
+
+Package: type=PK
+Flights:type=AIR
+HOtels:type=HOTELS
+Flight+Hotels:type=FLIGHTSHOTELS
+LastMinute:type=lastmin
+Cars:type=CARS
+Cruises:type=CR
+Groups:type=GROUPS
+Tours:type=TOURS
+Insurance:type=travelins
+Travel Guidetype=TRAVELGUIDE
