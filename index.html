@@ -69,16 +69,18 @@ a:hover .project-block{
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                           </button>
-                          <a class="navbar-brand" href="#">Brand</a>
+                          <a class="navbar-brand" href="#"><h4>Brand</h4></a>
                         </div>
                     
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                           <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                            <li><a href="#">Link</a></li>
+                            <li class="active"><a href="#" style="border-right: 1px solid #ccc;"><h4>ABOUT ME</h4>  <span class="sr-only">(current)</span></a></li>
+                            <li><a href="#" style="background:#FFFFFF; border-right: 1px solid #ccc;"><h4>MY SKILLS</h4></a></li>
+                            
+                            
                             <li class="dropdown">
-                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="background:#FFFFFF; border-right: 1px solid #ccc;"><h4>RECENT WORKS<span class="caret"></span></h4></a>
                               <ul class="dropdown-menu">
                                 <li><a href="#">Action</a></li>
                                 <li><a href="#">Another action</a></li>
@@ -90,25 +92,7 @@ a:hover .project-block{
                               </ul>
                             </li>
                           </ul>
-                          <form class="navbar-form navbar-left" role="search">
-                            <div class="form-group">
-                              <input type="text" class="form-control" placeholder="Search">
-                            </div>
-                            <button type="submit" class="btn btn-default">Submit</button>
-                          </form>
-                          <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">Link</a></li>
-                            <li class="dropdown">
-                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                              <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                              </ul>
-                            </li>
-                          </ul>
+   
                         </div><!-- /.navbar-collapse -->
                         
                         
@@ -125,11 +109,21 @@ a:hover .project-block{
 
 
 	<div class="parallax-window" data-parallax="scroll" data-image-src="img/img.jpg">
-    <div class="row">
-          
+    		<div class="row">
+          				<div style="position: absolute; top: 50%; left: 0; text-align: center; display: block; width: 100%; height: 250px; margin-top: -125px; cursor: pointer;">
+                           <h1 style="text-transform: uppercase; font-size: 6em; font-style:italic; line-height: 1em; text-shadow: 1px 1px 0px black; color:#FFF9F9; font-weight:bold;">SHENGYI LI</h1>
+                           
+                           <div style="text-transform: uppercase; font-size: 1em; text-shadow: 1px 1px 0px black; margin: 0 0 50px 0;line-height: 1.8em; color:#FFFFFF;">Web Design /  Digital Media Developer</div>
+                           
+                           
+                        </div>
     
+   			</div>
     </div>
-    </div>
+    
+    
+    
+    
     
     <div class="container-fluid">
      <a href="#" style="color:#000;"> 
@@ -179,7 +173,7 @@ a:hover .project-block{
 
 <script language="javascript">
 
-$('.parallax-window').parallax({imageSrc: 'img/img.jpg'});
+$(".parallax-window").parallax({imageSrc:"img/img.jpg"});
 </script>
 
 
